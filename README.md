@@ -27,3 +27,19 @@ As of righting this document the Calendar component does not have any parameters
 | activeMonthCalendar | bool          | used to keep track for when to render the months calendar                                          |
 | activeYearCalendar  | bool          | used to keep track for when to render the years calendar                                           |
 | commonParams        | object Object | used as a payload to pass down all the state variables down unto its children components           |
+
+### preview
+
+#### Default calendar
+
+![default calendar](./images/default-calendar.png)
+<br>
+
+#### Months calendar
+
+![months calendar](./images/months-calendar.png)
+<br>
+
+#### Years calendar
+
+![years calendar](./images/years-calendar.png)
