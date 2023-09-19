@@ -22,8 +22,6 @@ export default function buildCalendarDates({ currentYear, currentMonth, currentD
       currentMonth === currentDate.getMonth() &&
       currentYear === currentDate.getFullYear()
 
-    console.log(isCurrentDay ? i : '')
-
     calendarDates.push(
       <li key={i + '-currentMonth'} className={isCurrentDay ? ' active' : ''}>
         {i}

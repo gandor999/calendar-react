@@ -5,7 +5,7 @@ import monthCalendar from './monthCalendar'
 import yearCalendar from './yearCalendar'
 import buildYears from './util/buildYears'
 
-export default function Calendar(params) {
+export default function Calendar() {
   const currentDate = new Date()
 
   const [currentYear, setCurrentYear] = useState(currentDate.getFullYear())
