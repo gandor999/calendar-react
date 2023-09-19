@@ -1,0 +1,23 @@
+.calendar-body .years-calendar li {
+  width: calc(100% / 6);
+  font-size: 1.07rem;
+  color: #414141;
+}
+
+.calendar-body .calendar-years .year {
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.calendar-years .active div {
+  background: #fe938c;
+  border-radius: 5%;
+}
+
+.calendar-years .decade div {
+  font-weight: 500;
+}
+
+.calendar-years li:not(.active) div:hover {
+  background: #e4e1e1;
+}

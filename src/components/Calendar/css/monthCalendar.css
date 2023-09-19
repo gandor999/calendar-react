@@ -1,0 +1,20 @@
+.calendar-body .months-calendar li {
+  width: calc(100% / 6);
+  font-size: 1.07rem;
+  color: #414141;
+}
+
+.calendar-body .calendar-months .name-of-month {
+  font-weight: 500;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.calendar-months .active div {
+  background: #fe938c;
+  border-radius: 5%;
+}
+
+.calendar-months li:not(.active) div:hover {
+  background: #e4e1e1;
+}
