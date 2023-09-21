@@ -18,3 +18,7 @@
 .calendar-months li:not(.active) div:hover {
   background: #e4e1e1;
 }
+
+.name-of-month {
+  cursor: pointer;
+}

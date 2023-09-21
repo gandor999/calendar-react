@@ -42,7 +42,7 @@ export default function datesCalendar(commonParams) {
         <div className="dates-calendar">
           <ul className="calendar-weekdays">
             {daysOfWeeks.map(day => (
-              <li>{day}</li>
+              <li key={day}>{day}</li>
             ))}
           </ul>
           <ul className="calendar-dates">{buildCalendarDates(commonParams)}</ul>

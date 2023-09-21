@@ -48,7 +48,6 @@ header .calendar-navigation p {
 .calendar-body .dates-calendar li {
   width: calc(100% / 7);
   font-size: 1.07rem;
-  color: #414141;
 }
 
 .calendar-body .calendar-weekdays {
@@ -63,20 +62,16 @@ header .calendar-navigation p {
   cursor: pointer;
 }
 
-.current-year {
-  cursor: pointer;
-}
-
-.name-of-month {
-  cursor: pointer;
-}
-
 .calendar-dates li:not(.is-not-current-dates) {
   font-weight: 500;
 }
 
-.calendar-dates li .is-not-current-dates {
+.calendar-dates .is-not-current-dates {
   color: grey;
+}
+
+.calendar-dates .is-clicked-day {
+  color: #fe938c;
 }
 
 .calendar-dates li::before {
@@ -95,6 +90,6 @@ header .calendar-navigation p {
   background: #fe938c;
 }
 
-.calendar-dates li:not(.active):hover::before {
+.calendar-dates li:not(.active):not(.is-not-current-dates):hover::before {
   background: #e4e1e1;
 }

@@ -18,6 +18,14 @@
   font-weight: 500;
 }
 
+.calendar-years li:not(.decade) {
+  color: grey;
+}
+
 .calendar-years li:not(.active) div:hover {
   background: #e4e1e1;
+}
+
+.current-year {
+  cursor: pointer;
 }
